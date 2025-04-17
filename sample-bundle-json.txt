@@ -1,0 +1,39 @@
+{
+    "id": "da811cd1-a049-43d2-e428-9969c9ac36da",
+    "author": "",
+    "widgets": [
+        {
+            "id": "BIMDynamicCard",
+            "name": "BIMDynamicCard",
+            "description": "A sample widget",
+            "icon": "",
+            "tags":[]
+            "category":"",
+            "isTemplate": true/false // this will mark the widget as a template 
+        }
+    ],
+    "sidebarLinks": [
+        {
+            "id": "BIMDynamicCardLink",
+            "label": "",
+            "description": "",
+            "target": "",
+            "icon": "",
+            "roles":[]
+        }
+    ],
+    "uis": [
+        {
+            "id": "BIMDynamicCardLink",
+            "label":"",
+            "description": "",
+            "roles": []
+        }
+    ],
+    "menuItems": [
+        {
+            "id": "BIMDynamicCardLink",
+            "title": "BIMDynamicCard"
+        }
+    ]
+}

@@ -1,0 +1,123 @@
+.FaultyDetectionWidgetContainer {
+	// width: 1000px;
+	width: 100%;
+	overflow-x: scroll;
+}
+.FaultyDetectionWidget {
+	.faultywidget-locationfilter {
+		min-width: 150px !important;
+		width: 150px !important;
+		background-color: white !important;
+		box-shadow: 0 1px 8px 2px rgba(0, 0, 0, 0.12) !important;
+		border-radius: 10px !important;
+	}
+
+	.Common-DWMTimeFilter {
+		min-width: 130px !important;
+		width: 130px !important;
+		background-color: white !important;
+		box-shadow: 0 1px 8px 2px rgba(0, 0, 0, 0.12) !important;
+		border-radius: 10px !important;
+	}
+
+	.FaultyDetectionWidget-Tablecontainer {
+		width: "100%";
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 0px;
+		padding-bottom: 10px;
+		margin-top: -10px;
+		position: relative;
+	}
+
+	.FaultyDetectionWidget-systemlist-container {
+		width: "100%";
+		position: relative;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: -12px;
+		.faultdetection-system-box-container {
+			height: 150px;
+			width: 150px;
+			padding: 15px;
+			position: relative;
+			.faultdetection-system-box {
+				height: 100%;
+				width: 100%;
+				position: relative;
+				border-radius: 10px;
+				cursor: pointer;
+				background-color: #e8e8e8;
+				.faultdetection-system-failcount {
+					width: 25px;
+					height: 25px;
+					position: absolute;
+					right: -15px;
+					top: -15px;
+					border-radius: 50%;
+					background-color: #eacbf5;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					font-weight: bolder;
+					color: #757471;
+				}
+				.faultdetection-system-box-text {
+					width: 100%;
+					padding-left: 10px;
+					padding-right: 10px;
+					position: absolute;
+					bottom: 10px;
+					left: 0px;
+					text-align: center;
+					font-weight: bolder;
+					color: #757471;
+				}
+				.faultdetection-system-icons {
+					width: 100px;
+					height: 100px;
+					margin: auto;
+					position: relative;
+				}
+			}
+
+			.faultdetection-system-box:hover {
+				height: 100%;
+				width: 100%;
+				position: relative;
+				box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+				background-color: white;
+			}
+
+			.faultdetection-system-box-select {
+				box-shadow: 0 2px 6px 2px rgba(0, 0, 0, 0.2);
+				background-color: white;
+				.faultdetection-system-failcount {
+					border: solid 1px #b32cb8;
+				}
+				.faultdetection-system-box-text {
+					color: #4e50de !important;
+				}
+			}
+		}
+	}
+}
+
+.faultydetection-body-search-container {
+	width: 257px;
+	height: 63px;
+	border: solid 1px #b0b0b0;
+	padding: 10px;
+	border-radius: 10px;
+	position: relative;
+	margin-right: 20px;
+	.faultydetection-body-search-lable {
+		color: #b0b0b0;
+		padding: 0px 10px;
+		font-weight: bolder;
+		position: absolute;
+		top: -8px;
+		left: 10px;
+		background-color: white;
+	}
+}

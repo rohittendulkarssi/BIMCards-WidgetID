@@ -1,0 +1,149 @@
+{
+	"Asset": [
+		{
+			"AssetCategory": "test_f1_AHU",
+			"AssetName": "AHU",
+			"icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MCIgaGVpZ2h0PSI1MCIgdmlld0JveD0iMCAwIDUwIDUwIj48Y2lyY2xlIGN4PSIyNSIgY3k9IjI1IiByPSIyNSIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==",
+			"AssetDetails": {
+				"Make": "Taiwan",
+				"Model": "Hitachi_fl_ahu",
+				"SerialNumber": "Hitachi_fl_ahu_000007",
+				"Warranty": "In effect"
+			},
+			"ServiceContract": {
+				"ContractId": "SC123",
+				"ContractName": "Annual Maintenance",
+				"StartDate": "2023-01-01",
+				"EndDate": "2024-01-01",
+				"Status": "Active"
+			}
+		}
+	],
+	"Location": [
+		{
+			"LocationName": "IISC Central",
+			"Site": "IISC",
+			"LocationType": "Building",
+			"Address": "IISC Campus, Bangalore",
+			"Zip": "560012"
+		}
+	],
+	"Incident": [
+		{
+			"IncidentId": "INC123",
+			"SubType": "Fire",
+			"Description": "Fire in Building A",
+			"Status": "Open",
+			"Priority": "High"
+		},
+		{
+			"IncidentId": "INC456",
+			"SubType": "Theft",
+			"Description": "Theft in Building B",
+			"Status": "Closed",
+			"Priority": "Medium"
+		},
+		{
+			"IncidentId": "INC789",
+			"SubType": "Burglary",
+			"Description": "Burglary in Building C",
+			"Status": "In Progress",
+			"Priority": "High"
+		},
+		{
+			"IncidentId": "INC101",
+			"SubType": "Fire",
+			"Description": "Fire in Building D",
+			"Status": "Open",
+			"Priority": "Low"
+		}
+	],
+	"WorkOrder": [
+		{
+			"WorkOrderId": "WO456",
+			"SubType": "CWO",
+			"LocationName": "IISC Central",
+			"Description": "Repair HVAC system",
+			"Status": "In Progress",
+			"AssignedTo": "John Doe"
+		},
+		{
+			"WorkOrderId": "WO456",
+			"SubType": "CWO",
+			"LocationName": "IISC Central",
+			"Description": "Repair HVAC system",
+			"Status": "In Progress",
+			"AssignedTo": "John Doe"
+		},
+		{
+			"WorkOrderId": "WO456",
+			"SubType": "CWO",
+			"LocationName": "IISC Central",
+			"Description": "Repair HVAC system",
+			"Status": "In Progress",
+			"AssignedTo": "John Doe"
+		},
+		{
+			"WorkOrderId": "WO456",
+			"SubType": "CWO",
+			"LocationName": "IISC Central",
+			"Description": "Repair HVAC system",
+			"Status": "In Progress",
+			"AssignedTo": "John Doe"
+		},
+		{
+			"WorkOrderId": "WO456",
+			"SubType": "CWO",
+			"LocationName": "IISC Central",
+			"Description": "Repair HVAC system",
+			"Status": "In Progress",
+			"AssignedTo": "John Doe"
+		},
+		{
+			"WorkOrderId": "WO789",
+			"SubType": "CWO",
+			"LocationName": "IISC Central",
+			"Description": "Replace light bulbs",
+			"Status": "Open",
+			"AssignedTo": "Jane Smith"
+		},
+		{
+			"WorkOrderId": "WO901",
+			"SubType": "PPM",
+			"LocationName": "IISC Central",
+			"Description": "Lighting Maintenance",
+			"Status": "To Start",
+			"AssignedTo": "John Doe"
+		}
+	],
+	"Alarm": [
+		{
+			"AlarmId": "ALM123",
+			"SubType": "Fire",
+			"Description": "Fire alarm triggered in Building A",
+			"Status": "Active",
+			"Priority": "High"
+		},
+		{
+			"AlarmId": "ALM456",
+			"SubType": "Smoke",
+			"Description": "Smoke detected in Building B",
+			"Status": "Resolved",
+			"Priority": "Medium"
+		},
+		{
+			"AlarmId": "ALM789",
+			"SubType": "Intrusion",
+			"Description": "Unauthorized access in Building C",
+			"Status": "Active",
+			"Priority": "High"
+		},
+		{
+			"AlarmId": "ALM101",
+			"SubType": "Fire",
+			"Description": "Fire alarm triggered in Building D",
+			"Status": "Active",
+			"Priority": "Low"
+		}
+	]
+}

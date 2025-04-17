@@ -1,0 +1,247 @@
+// @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+$impactful-font: "Roboto", sans-serif !important;
+$header-font: "Montserrat", sans-serif !important;
+* {
+	font-family: $impactful-font !important;
+}
+// .widget-wrapper {
+// 	display: flex;
+// 	flex-wrap: wrap;
+// 	gap: 20px;
+// }
+
+// .asset-card-bim-card {
+// 	background-color: #2c3e50;
+// 	color: #ecf0f1;
+// 	border-radius: 10px;
+// 	padding: 20px;
+// 	width: 300px;
+// 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+// 	border: 2px solid;
+// }
+
+// .asset-card-bim-card-header {
+// 	display: flex;
+// 	justify-content: center;
+// 	margin-bottom: 20px;
+// 	padding: 10px;
+// 	border-radius: 10px 10px 0 0;
+// }
+
+// .asset-card-bim-card-body {
+// 	display: flex;
+// 	flex-direction: column;
+// 	gap: 10px;
+// }
+
+// .asset-flexbox {
+// 	display: flex;
+// 	justify-content: space-between;
+// }
+
+// .asset-key {
+// 	font-weight: bold;
+// }
+
+// .asset-value {
+// 	font-style: italic;
+// }
+
+// .view-button {
+// 	color: #ecf0f1;
+// 	border: none;
+// 	padding: 10px;
+// 	border-radius: 5px;
+// 	cursor: pointer;
+// 	margin-top: 20px;
+// }
+
+// .view-button:hover {
+// 	opacity: 0.8;
+// }
+
+.widget-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.asset-card-bim-card,
+.location-card,
+.incident-card,
+.workorder-card,
+.alarm-card {
+	background-color: #2c3e50;
+	color: #ecf0f1 !important;
+	// color: #b700e0;
+	border-radius: 10px;
+	padding: 20px;
+	width: 300px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border: 2px solid;
+}
+
+.asset-card-bim-card-header,
+.location-card-header,
+.incident-card-header,
+.workorder-card-header,
+.alarm-card-header {
+	font-family: $header-font;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	// margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 10px 10px 0 0;
+}
+
+.asset-card-bim-card-body,
+.location-card-body,
+.incident-card-body,
+.workorder-card-body,
+.alarm-card-body {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.asset-flexbox,
+.location-flexbox,
+.incident-flexbox,
+.workorder-flexbox,
+.alarm-flexbox {
+	display: flex;
+	justify-content: space-between !important;
+	align-items: center;
+}
+
+.asset-card-key,
+.location-key,
+.incident-key,
+.workorder-key,
+.alarm-key {
+	font-weight: bold;
+	width: 50%;
+}
+
+.asset-value,
+.location-value,
+.incident-value,
+.workorder-value,
+.alarm-value {
+	// font-style: italic;
+	// font-style: italic;
+	// white-space: nowrap;
+	// width: 69px;
+	// overflow-x: hidden;
+	// text-overflow: ellipsis;
+	font-style: italic;
+	white-space: normal;
+	word-wrap: break-word;
+	width: 50%;
+}
+
+.work-request-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.work-request-form {
+	margin-top: 10px;
+}
+
+.serving-locations-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.serving-locations-table th,
+.serving-locations-table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+.serving-locations-table th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+.view-button {
+	color: #ecf0f1;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.view-button:hover {
+	opacity: 0.8;
+}
+
+// .workorder-card-container {
+// 	margin: 20px;
+// }
+
+// .workorder-card-header {
+// 	display: flex;
+// 	justify-content: space-between;
+// 	align-items: center;
+// 	padding: 10px;
+// 	border-radius: 10px 10px 0 0;
+// 	color: #fff;
+// }
+
+// .stepper-buttons {
+// 	display: flex;
+// 	gap: 10px;
+// }
+
+// .stepper-buttons button {
+// 	background-color: #ecf0f1;
+// 	color: #2c3e50;
+// 	border: none;
+// 	padding: 5px 10px;
+// 	border-radius: 5px;
+// 	cursor: pointer;
+// }
+
+// .stepper-buttons button:hover {
+// 	background-color: #bdc3c7;
+// }
+
+.workorder-card-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.workorder-card-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+}
+
+.stepper-buttons {
+	display: flex;
+	gap: 10px;
+}
+
+.stepper-buttons button {
+	background-color: #ecf0f1;
+	color: #2c3e50;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.stepper-buttons button:hover {
+	background-color: #bdc3c7;
+}
