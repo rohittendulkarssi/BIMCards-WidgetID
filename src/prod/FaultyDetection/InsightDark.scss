@@ -1,0 +1,264 @@
+.InsightPopup{
+    background-color:#1D1D1D;
+    .InsightPopup-DetailContainer{
+        height:720px;
+        .InsightPopup-MainIcon-container{
+            margin-left:-40px;
+            margin-Top:-30px;
+            .InsightPopup-MainIcon {
+                background-repeat: no-repeat;
+                background-size: 80%;
+                position: relative;
+                background-position: 50% 50%;
+                height: 100px;
+                width: 100px;
+                background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='77.121' height='76.974' viewBox='0 0 77.121 76.974'%3E%3Cg id='Group_3960' data-name='Group 3960' transform='translate(-25.73 -112.023)'%3E%3Cg id='Group_3954' data-name='Group 3954' transform='translate(100.851 140.815) rotate(135)'%3E%3Cpath id='Path_13542' data-name='Path 13542' d='M5.438,5.438,0,0' transform='translate(19.559 30.955)' fill='none' stroke='%2352c4c9' stroke-linecap='round' stroke-width='2' opacity='0.34'/%3E%3Cpath id='Path_13544' data-name='Path 13544' d='M8.885,8.885,0,0' transform='translate(19.47 9.776)' fill='none' stroke='%2352c4c9' stroke-linecap='round' stroke-width='2' opacity='0.34'/%3E%3Cpath id='Path_13543' data-name='Path 13543' d='M37.89,37.89,0,0' fill='none' stroke='%2352c4c9' stroke-linecap='round' stroke-width='2' opacity='0.34'/%3E%3C/g%3E%3Cg id='Group_3955' data-name='Group 3955' transform='translate(61.953 118.552) rotate(45)'%3E%3Cpath id='Path_13542-2' data-name='Path 13542' d='M4002.451,172l4.775,4.775' transform='translate(-3988.423 -169.76)' fill='none' stroke='%23c9527b' stroke-linecap='round' stroke-width='2' opacity='0.34'/%3E%3Cpath id='Path_13544-2' data-name='Path 13544' d='M4002.45,172l13.505,13.506' transform='translate(-3997.153 -151.968)' fill='none' stroke='%23c9527b' stroke-linecap='round' stroke-width='2' opacity='0.34'/%3E%3Cpath id='Path_13543-2' data-name='Path 13543' d='M4002.451,172l48.4,48.4' transform='translate(-4002.451 -172)' fill='none' stroke='%23c9527b' stroke-linecap='round' stroke-width='2' opacity='0.34'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+            }
+        }
+        .WeNoticed-style{
+            margin-top: -35px;
+            margin-left: 20px;
+            font-size: 17px;
+            font-weight: bolder;
+            color: #C9527B;
+            position: relative;
+            .WeNoticed-icon-container{
+                position: absolute;
+                top:-7px;
+                right: 3px;
+                .WeNoticed-icon{
+                    background-repeat: no-repeat;
+                    background-size: 80%;
+                    position: relative;
+                    background-position: 50% 50%;
+                    height: 12px;
+                    width: 12px;
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='9' viewBox='0 0 10 9'%3E%3Cg id='Group_3984' data-name='Group 3984' transform='translate(-225 -171.5)'%3E%3Cline id='Line_1' data-name='Line 1' y1='6' transform='translate(225.5 172)' fill='none' stroke='%23c9527b' stroke-linecap='round' stroke-width='1'/%3E%3Cline id='Line_2' data-name='Line 2' x2='7' transform='translate(227.5 180)' fill='none' stroke='%23c9527b' stroke-linecap='round' stroke-width='1'/%3E%3Cpath id='Path_13532' data-name='Path 13532' d='M-.464,6.488,2.989,3.5' transform='translate(228.5 170.879)' fill='none' stroke='%23c9527b' stroke-linecap='round' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E%0A");
+                }
+            }
+        }
+
+        .Recomendation-style{
+            margin-top: 40px;
+            margin-left: 20px;
+            width:160px;
+            font-size: 17px;
+            font-weight: bolder;
+            color: #C9527B;
+            position: relative;
+            .Recomendation-icon-container{
+                position: absolute;
+                top:-5px;
+                right: 3px;
+                .Recomendation-icon{
+                    background-repeat: no-repeat;
+                    background-size: 80%;
+                    position: relative;
+                    background-position: 50% 50%;
+                    height: 12px;
+                    width: 12px;
+                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='9' viewBox='0 0 10 9'%3E%3Cg id='Group_3984' data-name='Group 3984' transform='translate(-225 -171.5)'%3E%3Cline id='Line_1' data-name='Line 1' y1='6' transform='translate(225.5 172)' fill='none' stroke='%23c9527b' stroke-linecap='round' stroke-width='1'/%3E%3Cline id='Line_2' data-name='Line 2' x2='7' transform='translate(227.5 180)' fill='none' stroke='%23c9527b' stroke-linecap='round' stroke-width='1'/%3E%3Cpath id='Path_13532' data-name='Path 13532' d='M-.464,6.488,2.989,3.5' transform='translate(228.5 170.879)' fill='none' stroke='%23c9527b' stroke-linecap='round' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E%0A");
+                }
+            }
+        }
+
+        .InsightPopup-MainDec-container{
+            width:100%;
+            margin-top: 10px;
+            padding-right:20px;
+            padding-left:20px;
+            position:relative;
+            .InsightPopup-MainDec{
+                padding: 10px;
+                width:100%;
+                border-radius: 10px;
+                background-color: #000000;
+                .InsightPopup-MainDec-text{
+                    color: white;
+                    width:100%;
+                    font-size: 14px;
+                    font-weight: bolder;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+        }
+
+        .InsightPopup-Recomendations-container{
+            width:100%;
+            padding-left: 20px;
+            padding-right: 30px;
+            position: relative;
+            max-height: 148px;
+            overflow-y: auto;
+            background-color:#1D1D1D;
+            .InsightPopup-Recomendations-textcontainer{
+                position: relative;
+                padding-left: 20px;
+                padding-top: 10px;
+                color: white;
+                .InsightPopup-Recomendations-listiconcontainer{
+                    position: absolute;
+                    left: 0px;
+                    top:11px;
+                }
+            }
+
+        }
+        .InsightPopup-MainDecList-container{
+            height: 100px;
+            overflow-y: auto;
+            width:100%;
+            margin-top: 10px;
+            padding-right:60px;
+            padding-left:40px;
+            position:relative;
+            color:white;
+        }
+
+        .InsightPopup-SummaryCycle-Title{
+            padding-left: 20px;
+            margin-top: 30px;
+            .InsightPopup-SummaryCycle-Title-Text{
+                width:165px;
+                font-size: 12px;
+                font-weight: bolder;
+                //color: blue;
+                color: #52C9A9;
+                position: relative;
+            }
+            .InsightPopup-headcountjobnotify{
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                border-radius: 20px;   
+                border: 1px solid #BEBEBE;
+                width: 15px;
+                height: 15px;  
+                background-color: #C8C8C8;
+                position: absolute;
+                top: -10px;
+                right: -10px;
+                font-size: 8px;
+                line-height: 12px;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                color: #101010;
+                font-weight: 700;
+            }
+        }
+        .InsightPopup-SummaryCycle{
+            padding-left: 20px;
+            padding-right:20px;
+            margin-top: 10px;
+            width: 100%;
+            position: relative;
+            .InsightPopup-SummaryCycleList{
+               max-height: 300px;
+               color: white;
+               overflow-y: auto;
+               .InsightPopup-SummaryCycleList-expander{
+                    width:350px;
+                    padding: 10px;
+                    width: 96%;
+               }
+               .InsightPopup-SummaryCycleList-iconContainer{
+                    .InsightPopup-SummaryCycleList-correctIcon{
+                        height: 20px;
+                        width: 20px;
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        background-position: 50% 50%;
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3C!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --%3E%3Cpath fill='%2314c41c' d='M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z'/%3E%3C/svg%3E");
+                    }
+                    .InsightPopup-SummaryCycleList-FailIcon{
+                        height: 20px;
+                        width: 20px;
+                        background-repeat: no-repeat;
+                        background-size: 100%;
+                        background-position: 50% 50%;
+                        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 576 512'%3E%3C!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --%3E%3Cpath fill='%23d61824' d='M569.517 440.013C587.975 472.007 564.806 512 527.94 512H48.054c-36.937 0-59.999-40.055-41.577-71.987L246.423 23.985c18.467-32.009 64.72-31.951 83.154 0l239.94 416.028zM288 354c-25.405 0-46 20.595-46 46s20.595 46 46 46 46-20.595 46-46-20.595-46-46-46zm-43.673-165.346l7.418 136c.347 6.364 5.609 11.346 11.982 11.346h48.546c6.373 0 11.635-4.982 11.982-11.346l7.418-136c.375-6.874-5.098-12.654-11.982-12.654h-63.383c-6.884 0-12.356 5.78-11.981 12.654z'/%3E%3C/svg%3E");
+                    }
+                    .InsightPopup-SummaryCycleList-downIcon{
+                        cursor: pointer;
+                        height: 18px;
+                        width: 18px;
+                        background-repeat: no-repeat;
+                        background-size: 90%;
+                        background-position: 50% 50%;
+                        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' version='1.1' width='512' height='512' x='0' y='0' viewBox='0 0 438.533 438.533' style='enable-background:new 0 0 512 512' xml:space='preserve' class=''%3E%3Cg%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M409.133,109.203c-19.608-33.592-46.205-60.189-79.798-79.796C295.736,9.801,259.058,0,219.273,0 c-39.781,0-76.47,9.801-110.063,29.407c-33.595,19.604-60.192,46.201-79.8,79.796C9.801,142.8,0,179.489,0,219.267 c0,39.78,9.804,76.463,29.407,110.062c19.607,33.592,46.204,60.189,79.799,79.798c33.597,19.605,70.283,29.407,110.063,29.407 s76.47-9.802,110.065-29.407c33.593-19.602,60.189-46.206,79.795-79.798c19.603-33.596,29.403-70.284,29.403-110.062 C438.533,179.485,428.732,142.795,409.133,109.203z M361.733,204.705L232.119,334.324c-3.614,3.614-7.9,5.428-12.849,5.428 c-4.948,0-9.229-1.813-12.847-5.428L76.804,204.705c-3.617-3.615-5.426-7.898-5.426-12.845c0-4.949,1.809-9.235,5.426-12.851 l29.119-29.121c3.621-3.618,7.9-5.426,12.851-5.426c4.948,0,9.231,1.809,12.847,5.426l87.65,87.65l87.65-87.65 c3.614-3.618,7.898-5.426,12.847-5.426c4.949,0,9.233,1.809,12.847,5.426l29.123,29.121c3.621,3.616,5.428,7.902,5.428,12.851 C367.164,196.807,365.357,201.09,361.733,204.705z' fill='%23ffffff' data-original='%23000000' style='' class=''/%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+                    }
+                    .InsightPopup-SummaryCycleList-upIcon{
+                        cursor: pointer;
+                        height: 18px;
+                        width: 18px;
+                        background-repeat: no-repeat;
+                        background-size: 90%;
+                        background-position: 50% 50%;
+                        background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' version='1.1' width='512' height='512' x='0' y='0' viewBox='0 0 438.533 438.533' style='enable-background:new 0 0 512 512' xml:space='preserve' class=''%3E%3Cg transform='matrix(1,0,0,-1,0,438.53515625)'%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M409.133,109.203c-19.608-33.592-46.205-60.189-79.798-79.796C295.736,9.801,259.058,0,219.273,0 c-39.781,0-76.47,9.801-110.063,29.407c-33.595,19.604-60.192,46.201-79.8,79.796C9.801,142.8,0,179.489,0,219.267 c0,39.78,9.804,76.463,29.407,110.062c19.607,33.592,46.204,60.189,79.799,79.798c33.597,19.605,70.283,29.407,110.063,29.407 s76.47-9.802,110.065-29.407c33.593-19.602,60.189-46.206,79.795-79.798c19.603-33.596,29.403-70.284,29.403-110.062 C438.533,179.485,428.732,142.795,409.133,109.203z M361.733,204.705L232.119,334.324c-3.614,3.614-7.9,5.428-12.849,5.428 c-4.948,0-9.229-1.813-12.847-5.428L76.804,204.705c-3.617-3.615-5.426-7.898-5.426-12.845c0-4.949,1.809-9.235,5.426-12.851 l29.119-29.121c3.621-3.618,7.9-5.426,12.851-5.426c4.948,0,9.231,1.809,12.847,5.426l87.65,87.65l87.65-87.65 c3.614-3.618,7.898-5.426,12.847-5.426c4.949,0,9.233,1.809,12.847,5.426l29.123,29.121c3.621,3.616,5.428,7.902,5.428,12.851 C367.164,196.807,365.357,201.09,361.733,204.705z' fill='%23ffffff' data-original='%23000000' style='' class=''/%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+                    }
+               }
+            }
+            .InsightPopup-SummaryChart{
+                height: 135px;
+                position: relative;
+                .InsightPopup-SummaryChart-Container{
+                    position: relative;
+                    margin-top: -40px;
+                    width:180px;
+                    height:180px;
+                }
+            }
+        }
+    }
+    
+    .InsightPopup-BlockContainer{
+        height:720px;
+        padding-left: 30px;
+        .InsightPopup-BlockContainer-title{
+            padding-left: 10px;
+            padding-bottom: 10px;
+            font-size: 13px;
+            font-weight: bolder;
+            //color:blue;
+            color:#52C9A9;
+        }
+        .InsightPopup-BlockContainer-subtitle{
+            padding-left: 20px;
+            padding-bottom: 10px;
+            font-size: 13px;
+            font-weight: bolder;
+            //color:blue;
+            color:#52C9A9;
+        }
+    }
+}
+
+.InsightPopup-faultdescriptionCell-description {
+    height: 10px;
+    width: 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' version='1.1' width='512' height='512' x='0' y='0' viewBox='0 0 29.107 29.107' style='enable-background:new 0 0 512 512' xml:space='preserve' class=''%3E%3Cg%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='c147_full_moon'%3E%3Cg%3E%3Cpath d='M14.554,0C6.561,0,0,6.562,0,14.552c0,7.996,6.561,14.555,14.554,14.555c7.996,0,14.553-6.559,14.553-14.555 C29.106,6.562,22.55,0,14.554,0z' fill='%23b43b64' data-original='%23000000' style='' class=''/%3E%3C/g%3E%3C/g%3E%3Cg id='Capa_1_14_'%3E%3C/g%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3Cg xmlns='http://www.w3.org/2000/svg'%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+}
+
+.InsightPopup-CycleSummaryList-dropdown{
+    transform: translateY(-20px) translateX(10px)!important;
+}
+
+.InsightPopup-cwohistoryList-dropdown{
+    transform: translateY(-135px) translateX(10px) rotate(180deg) scale(-1, 1) !important;
+}
+
+.InsightPopup-ColumnDevide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .InsightPopup-Column {
+        position: relative;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+}

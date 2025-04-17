@@ -1,0 +1,81 @@
+{
+	"id": "a027351c-cf1d-4c3a-c9f4-75727935dd34",
+	"author": "Rohit",
+	"widgets": [
+		{
+			"id": "BIMAssetDynamicCard",
+			"name": "BIMAssetDynamicCard",
+			"description": "A sample widget",
+			"icon": "",
+			"tags": [],
+			"category": "",
+			"isTemplate": false
+		},
+		{
+			"id": "BIMLocationDynamicCard",
+			"name": "BIMLocationDynamicCard",
+			"description": "A sample widget",
+			"icon": "",
+			"tags": [],
+			"category": "",
+			"isTemplate": false
+		},
+		{
+			"id": "SBIMCard_AlarmCard",
+			"name": "SmartBIM AlarmCard Widget",
+			"description": "SmartBIM AlarmCard Widget",
+			"icon": "",
+			"tags": [],
+			"category": "",
+			"isTemplate": false
+		},
+		{
+			"id": "SBIMCard_AssetCard",
+			"name": "SmartBIM AssetCard Widget",
+			"description": "SmartBIM AssetCard Widget",
+			"icon": "",
+			"tags": [],
+			"category": "",
+			"isTemplate": false
+		},
+		{
+			"id": "SBIMCard_IncidentCard",
+			"name": "SmartBIM IncidentCard Widget",
+			"description": "SmartBIM IncidentCard Widget",
+			"icon": "",
+			"tags": [],
+			"category": "",
+			"isTemplate": false
+		},
+		{
+			"id": "SBIMCard_LocationCard",
+			"name": "SmartBIM LocationCard Widget",
+			"description": "SmartBIM LocationCard Widget",
+			"icon": "",
+			"tags": [],
+			"category": "",
+			"isTemplate": false
+		},
+		{
+			"id": "SBIMCard_WorkOrderCard",
+			"name": "SmartBIM WorkOrderCard Widget",
+			"description": "SmartBIM WorkOrderCard Widget",
+			"icon": "",
+			"tags": [],
+			"category": "",
+			"isTemplate": false
+		},
+		{
+			"id": "SBIMCard_FDDWidget",
+			"name": "SmartBIM FDD Widget ",
+			"description": "SmartBIM FDD Widget ",
+			"icon": "",
+			"tags": [],
+			"category": "",
+			"isTemplate": false
+		}
+	],
+	"sidebarLinks": [],
+	"uis": [],
+	"menuItems": []
+}
